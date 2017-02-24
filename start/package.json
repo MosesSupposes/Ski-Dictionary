@@ -4,6 +4,7 @@
   "description": "A collection of skier terms and definitions",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -17,5 +18,8 @@
     "body-parser": "^1.14.1",
     "cors": "^2.7.1",
     "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
