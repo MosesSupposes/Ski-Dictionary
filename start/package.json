@@ -1,29 +1,21 @@
 {
   "name": "ski-dictionary",
   "version": "1.0.0",
-  "description": "A collection of skier terms and definiitions",
+  "description": "A collection of skier terms and definitions",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MosesSupposes/Ski-Dictionary.git"
-  },
   "keywords": [
     "ski",
-    "dictionary",
-    "terms"
+    "terms",
+    "dictionary"
   ],
-  "author": "Moses Samuel",
+  "author": "Alex Banks",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MosesSupposes/Ski-Dictionary/issues"
-  },
-  "homepage": "https://github.com/MosesSupposes/Ski-Dictionary#readme",
   "dependencies": {
-    "body-parser": "^1.16.1",
-    "cors": "^2.8.1",
-    "express": "^4.14.1"
+    "body-parser": "^1.14.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.3"
   }
 }
